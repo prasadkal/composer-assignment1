@@ -1,0 +1,37 @@
+[
+    {
+        "name": "prasadkumarkale/hello-prasad-composer",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/prasadkal/hello-composer.git",
+            "reference": "2ff405705cf18b9c3f8d2280bd857d9a5e48ed24"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/prasadkal/hello-composer/zipball/2ff405705cf18b9c3f8d2280bd857d9a5e48ed24",
+            "reference": "2ff405705cf18b9c3f8d2280bd857d9a5e48ed24",
+            "shasum": ""
+        },
+        "time": "2020-07-13T06:33:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "prasad\\HelloWorld\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Prasadkumar Kale",
+                "email": "pvkale2@gmail.com"
+            }
+        ],
+        "description": "This is hello world package composer"
+    }
+]

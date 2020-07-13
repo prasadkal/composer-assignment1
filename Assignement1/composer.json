@@ -1,0 +1,18 @@
+{
+    "name": "composer/assignment1",
+    "description": "Composer Assignemnt 1",
+    "type": "library",
+    "require": {
+        "prasadkumarkale/hello-prasad-composer": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Prasadkumar Kale",
+            "email": "pkale@xento.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"prasad\\HelloWorld\\": "src/"}
+    },
+    "minimum-stability": "stable"
+}

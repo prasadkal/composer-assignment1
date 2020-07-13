@@ -1,0 +1,18 @@
+{
+    "name": "prasadkumarkale/hello-prasad-composer",
+    "description": "This is hello world package composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasadkumar Kale",
+            "email": "pvkale2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"prasad\\HelloWorld\\": "src/"}
+    },
+     "version": "1.0.0",
+    "require": {}
+}
